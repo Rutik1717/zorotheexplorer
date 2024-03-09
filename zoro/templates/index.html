@@ -7,7 +7,25 @@
     <title>Anime Recommendation</title>
 </head>
 <body>
-    <h1>Anime Recommendation</h1>
+    <nav class="logo">
+        <img src="static\logo.jpeg">
+        
+      </nav>
+      <nav class="navMenu">
+       
+        <a href="blog.html">Blog</a>
+        <a href="spoilers.html">spoilers</a>
+        <a href="about.html">About</a>
+        <a href="index.html#">contact us</a>
+        <div class="dot"></div>
+
+      </nav>
+      <div class="img">
+      <img src="static/img.jpg" alt="abx" >
+    </div>
+    <div class="t1">
+    <h1 >I left everything I gathered together in one place. <h2>Wealth, Fame, Power</h2>
+      </h1></div>
     <form action="/recommend" method="post">
         <label for="anime_name">Enter the anime you like:</label>
         <input type="text" id="anime_name" name="anime_name" required><br><br>
@@ -15,5 +33,6 @@
         <input type="number" id="num_recommendations" name="num_recommendations" min="1" required><br><br>
         <button type="submit">Get Recommendations</button>
     </form>
+    <h1 style="margin-top: 100px;">hiiiiii</h1>
 </body>
 </html>
